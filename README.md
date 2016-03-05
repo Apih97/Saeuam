@@ -81,8 +81,8 @@ A. 	Requerimientos Local:
 
 - Sistemas operativos (instalación Local): Windows Xp, 10, 8, 7, OS X, Diestros 
   Linux-BSD-Solaris
-- Memoria RAM: 2gigas mínimo.
-- Procesador: Dual Core mínimo, 1Gz de procesador.
+- Memoria RAM: 2 GB mínimo.
+- Procesador: Dual Core mínimo, 1GHz de procesador.
 - Espacio Mínimo: 15gigbytes de disco
 - Motores de Base de datos: Inobd (MySQL) y Postgres (PostgreSQL)
 - Servidor Local: Apache (recomendado Xamp)
