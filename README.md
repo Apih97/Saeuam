@@ -1,5 +1,5 @@
 #                                     Kira-SAE (Sistema Administrador Educativo)  
-
+ [![Kira](https://github.com/Thealexander/KiraSaeuam/blob/master/Documentos/Logos-de-las-versiones/SAE.png)](http://www.cakephp.org)
 ## Menu
 - [I.Descripcion](#Descripcion).
 - [II.Resumen Ejecutivo](#Resumen-Ejecutivo).
@@ -15,8 +15,8 @@
 ## <a name="Descripcion"></a>Descripcion
 
 Es un programa de administración, control y manejo de clases, horarios, personal y finanzas (pagos y recargos) de una institución académica. El programa tendrá la capacidad de tener niveles de privilegios de usuario. Se podrá acceder a la aplicación por computador y web o por dispositivo móvil (aplicación o web App).
-El Sistema `SAE` busca ser creado con la utilizacion o implementacion de codigo javascript, python, perl y ruby, para optimizacion de funciones, como lenguaje base de la aplicacion Php, y Cakephp como framework.
-La base de datos de `SAE` estaran en dos versiones para prueba de estabilidad, seguridad, y velocidad, tales seran en Firebird, PostgreSQL y MySQL.
+El Sistema `KIRA` busca ser creado con PHP como lenguaje base de la aplicacion y Cakephp como framework.
+La base de datos de `KIRA` estaran en tres versiones para prueba de estabilidad, seguridad, y velocidad, tales seran creadas en MariaDB, PostgreSQL y MySQL.
 
 El software contara con:
 
@@ -28,7 +28,7 @@ El software contara con:
  
 ## <a name="Resumen-Ejecutivo"></a>Resumen Ejecutivo
 
-El programa `SAE` es un sistema de administración para diversas tareas que  se necesitan mantener controladas y supervisas en los sectores educativos, escuelas, colegios particulares y técnicos, institutos educativos, entre otros. Con SAE se logra mantener un control y manejo de clases, horarios, personal y finanzas (pagos y recargos) de una institución académica. Permitiendo así salvar lo más preciado para toda persona como es el tiempo y la información, en el caso de los centros educativos, mantener un control más detallado de su comunidad estudiantil y las finanzas y roles que conlleva.
+El programa `KIRA` es un sistema de administración para diversas tareas que  se necesitan mantener controladas y supervisas en los sectores educativos, escuelas, colegios particulares y técnicos, institutos educativos, entre otros. Con `KIRA` se logra mantener un control y manejo de clases, horarios, personal y finanzas (pagos y recargos) de una institución académica. Permitiendo así salvar lo más preciado para toda persona como es el tiempo y la información, en el caso de los centros educativos, mantener un control más detallado de su comunidad estudiantil y las finanzas y roles que conlleva.
 
 El programa tiene la capacidad de mantener niveles de privilegios de usuario. Limitando y garantizando un correcto acceso a la información que se debe mostrar al nivel de usuario dado (padres, administradores, estudiantes, directores, profesores). Ahorrando tiempo en organizar eventos o actividades. Se podrá acceder a la aplicación por computador y web o por dispositivo móvil (aplicación o web App), facilitando a los usuarios acceder en cualquier parte que se encuentren para acceder a su información (padres, estudiantes), o manteniendo una seguridad de acceso a instalaciones e información privada del centro (administradores, profesores).
 
@@ -44,22 +44,21 @@ El software contara con:
 
 -  `Manejo y control de finanzas:` Control de pagos, y gastos que realiza el centro educativo.
 
-Se presentarán 4 versiones:
+Se presentarán 3 versiones:
 
-- `Basic:` El software solo es adaptado para uso de administradores y un director, de manera interna sin acceso a estudiantes o padres a realizar transacciones. Módulos habilitados: Inscripción, Registros, búsqueda y pagos. 
+- `MyKira:` Version de Kira-SAE utilizando como motor de Base de datos como motor de base de datos MySQL COmmunity.
 
-- `Professional:` El software es adaptado para acceso de administradores, director, profesores y estudiantes. Los privilegios son adaptados por parte del Usuario root. Módulos habilitados: Niveles de usuarios, Manejo y Control de finanzas, Registro de Profesores, Personal, Alumnos. Permite la Creación de Reportes
+- `MaKira:` La version de Kira-SAE utilizando como motor de base de datos MariaDB. 
 
-- `Premium:` El software tiene habilitado todos los módulos y niveles de usuario. Respaldo incorporado y creación de reportes 
+- `PgKira:` La version de Kira-SAE utilizando motor de base de datos a PostgreSQL.
 
-- `Business Premium:` El software cuenta con todas las opciones del Sistema en sí, Con respaldo incorporado y acceso desde Web.
 
 ## <a name="Descripcion-de-detalles-Tecnicos"></a>Descripcion de detalles Tecnicos
 
 ###A. 	`Requerimientos Local:` 
 
 - Sistemas operativos (instalación Local): Windows Xp, 10, 8, 7, OS X, Diestros Linux-BSD-Solaris
-- Memoria RAM: 2gigas mínimo.
+- Memoria RAM: 2 GB mínimo.
 - Procesador: Dual Core mínimo, 1Gz de procesador.
 - Espacio Mínimo: 15gigbytes de disco
 - Motores de Base de datos: Inobd (MySQL) y Postgres (PostgreSQL)
@@ -85,6 +84,7 @@ Los usuarios finales serian: profesores, padres, alumnos, directores y administr
 - `Repositorio:`https://github.com/Thealexander/Saeuam
 - `Sitio Web1:` http://sae.heliohost.org/ --PostgreSQl db
 - `Sitio Web2:` http://scadministrator.netai.net/ --Mysql db
+- `Sitio Web2:` http://makirasae.kloud51.com/ --Maria DB
 - `Documentos:` https://drive.google.com/folderview?id=0B3LlhRNr0vrdZTlNY0ZoTktqMEU&usp=sharing
 
   
@@ -115,21 +115,17 @@ Rol en el proyecto: Programar, investigar .desarrollar y escribir
 
 1- Presentacion digital de los avances del sistema SAE.
 
-2- Manual de usuario del sistema SAE.
+2- Pagina web online 
 
-3- Pagina web online 
+3- Usuario y clave de acceso para realizar pruebas.
 
-4- Usuario y clave de acceso para realizar pruebas.
+4- Kira con gestor de base de datos MariaDB.
 
-5- Un CD ejecutable.
+5- Kira con gestor de base de datos MYSQL.
 
-6- SAE con gestor de base de datos MYSQL.
+6- Kira con gestor de base de datos POSTGRESQL.
 
-7- SAE con gestor de base de datos POSTGRESQL.
-
-8- Repositorio en linea.
-
-9- Un Installer del sistemas SAE.
+7- Repositorio en linea.
 
 ## <a name="Anotaciones"></a>Anotaciones
 
